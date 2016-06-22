@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>ONEKit.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>ONEKitExample.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -23,6 +28,16 @@
 			<true/>
 		</dict>
 		<key>F4DBCDC81D16747500EDA820</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F4DBCDDF1D1674A400EDA820</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F4DBCDE81D1674A400EDA820</key>
 		<dict>
 			<key>primary</key>
 			<true/>

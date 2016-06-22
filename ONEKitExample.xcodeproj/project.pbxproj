@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F40F991F1D1AB96E00F45744 /* UIButton+Delaytrigger.h in Headers */ = {isa = PBXBuildFile; fileRef = F40F991D1D1AB96E00F45744 /* UIButton+Delaytrigger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F40F99201D1AB96E00F45744 /* UIButton+Delaytrigger.m in Sources */ = {isa = PBXBuildFile; fileRef = F40F991E1D1AB96E00F45744 /* UIButton+Delaytrigger.m */; };
+		F40F99231D1AC0E900F45744 /* ONEButton.h in Headers */ = {isa = PBXBuildFile; fileRef = F40F99211D1AC0E900F45744 /* ONEButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F40F99241D1AC0E900F45744 /* ONEButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F40F99221D1AC0E900F45744 /* ONEButton.m */; };
 		F4DBCDAA1D16747400EDA820 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4DBCDA91D16747400EDA820 /* main.m */; };
 		F4DBCDAD1D16747400EDA820 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4DBCDAC1D16747400EDA820 /* AppDelegate.m */; };
 		F4DBCDB01D16747400EDA820 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4DBCDAF1D16747400EDA820 /* ViewController.m */; };
@@ -15,6 +19,21 @@
 		F4DBCDB81D16747400EDA820 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4DBCDB61D16747400EDA820 /* LaunchScreen.storyboard */; };
 		F4DBCDC31D16747400EDA820 /* ONEKitExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F4DBCDC21D16747400EDA820 /* ONEKitExampleTests.m */; };
 		F4DBCDCE1D16747500EDA820 /* ONEKitExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F4DBCDCD1D16747500EDA820 /* ONEKitExampleUITests.m */; };
+		F4DBCDE31D1674A400EDA820 /* ONEKit.h in Headers */ = {isa = PBXBuildFile; fileRef = F4DBCDE21D1674A400EDA820 /* ONEKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4DBCDEA1D1674A400EDA820 /* ONEKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4DBCDE01D1674A400EDA820 /* ONEKit.framework */; };
+		F4DBCDF11D1674A400EDA820 /* ONEKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F4DBCDF01D1674A400EDA820 /* ONEKitTests.m */; };
+		F4DBCDF51D1674A400EDA820 /* ONEKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4DBCDE01D1674A400EDA820 /* ONEKit.framework */; };
+		F4DBCDF61D1674A400EDA820 /* ONEKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F4DBCDE01D1674A400EDA820 /* ONEKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F4DBCE0A1D16762C00EDA820 /* UIColor+RGB.m in Sources */ = {isa = PBXBuildFile; fileRef = F4DBCE081D16762B00EDA820 /* UIColor+RGB.m */; };
+		F4DBCE0B1D16762C00EDA820 /* UIColor+RGB.m in Sources */ = {isa = PBXBuildFile; fileRef = F4DBCE081D16762B00EDA820 /* UIColor+RGB.m */; };
+		F4DBCE0D1D16784F00EDA820 /* ONEKitColorTest.m in Sources */ = {isa = PBXBuildFile; fileRef = F4DBCE0C1D16784F00EDA820 /* ONEKitColorTest.m */; };
+		F4DBCE121D1699C600EDA820 /* UIColor+HSB.m in Sources */ = {isa = PBXBuildFile; fileRef = F4DBCE101D1699C600EDA820 /* UIColor+HSB.m */; };
+		F4DBCE1B1D16A20F00EDA820 /* ONEColor.m in Sources */ = {isa = PBXBuildFile; fileRef = F4DBCE191D16A20F00EDA820 /* ONEColor.m */; };
+		F4DBCE231D16A60200EDA820 /* UIColor+HSB.m in Sources */ = {isa = PBXBuildFile; fileRef = F4DBCE101D1699C600EDA820 /* UIColor+HSB.m */; };
+		F4DBCE241D16A61100EDA820 /* ONEColor.m in Sources */ = {isa = PBXBuildFile; fileRef = F4DBCE191D16A20F00EDA820 /* ONEColor.m */; };
+		F4DBCE251D16A65A00EDA820 /* ONEColor.h in Headers */ = {isa = PBXBuildFile; fileRef = F4DBCE181D16A20F00EDA820 /* ONEColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4DBCE261D16A65A00EDA820 /* UIColor+RGB.h in Headers */ = {isa = PBXBuildFile; fileRef = F4DBCE071D16762B00EDA820 /* UIColor+RGB.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4DBCE271D16A65A00EDA820 /* UIColor+HSB.h in Headers */ = {isa = PBXBuildFile; fileRef = F4DBCE0F1D1699C600EDA820 /* UIColor+HSB.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,9 +51,48 @@
 			remoteGlobalIDString = F4DBCDA41D16747400EDA820;
 			remoteInfo = ONEKitExample;
 		};
+		F4DBCDEB1D1674A400EDA820 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4DBCD9D1D16747400EDA820 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4DBCDDF1D1674A400EDA820;
+			remoteInfo = ONEKit;
+		};
+		F4DBCDED1D1674A400EDA820 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4DBCD9D1D16747400EDA820 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4DBCDA41D16747400EDA820;
+			remoteInfo = ONEKitExample;
+		};
+		F4DBCDF31D1674A400EDA820 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4DBCD9D1D16747400EDA820 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4DBCDDF1D1674A400EDA820;
+			remoteInfo = ONEKit;
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		F4DBCDFA1D1674A400EDA820 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F4DBCDF61D1674A400EDA820 /* ONEKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		F40F991D1D1AB96E00F45744 /* UIButton+Delaytrigger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Delaytrigger.h"; sourceTree = "<group>"; };
+		F40F991E1D1AB96E00F45744 /* UIButton+Delaytrigger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Delaytrigger.m"; sourceTree = "<group>"; };
+		F40F99211D1AC0E900F45744 /* ONEButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ONEButton.h; sourceTree = "<group>"; };
+		F40F99221D1AC0E900F45744 /* ONEButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ONEButton.m; sourceTree = "<group>"; };
 		F4DBCDA51D16747400EDA820 /* ONEKitExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ONEKitExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4DBCDA91D16747400EDA820 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F4DBCDAB1D16747400EDA820 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +109,20 @@
 		F4DBCDC91D16747500EDA820 /* ONEKitExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ONEKitExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4DBCDCD1D16747500EDA820 /* ONEKitExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ONEKitExampleUITests.m; sourceTree = "<group>"; };
 		F4DBCDCF1D16747500EDA820 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4DBCDE01D1674A400EDA820 /* ONEKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ONEKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4DBCDE21D1674A400EDA820 /* ONEKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ONEKit.h; sourceTree = "<group>"; };
+		F4DBCDE41D1674A400EDA820 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4DBCDE91D1674A400EDA820 /* ONEKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ONEKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4DBCDF01D1674A400EDA820 /* ONEKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ONEKitTests.m; sourceTree = "<group>"; };
+		F4DBCDF21D1674A400EDA820 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4DBCE071D16762B00EDA820 /* UIColor+RGB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+RGB.h"; sourceTree = "<group>"; };
+		F4DBCE081D16762B00EDA820 /* UIColor+RGB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+RGB.m"; sourceTree = "<group>"; };
+		F4DBCE0C1D16784F00EDA820 /* ONEKitColorTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ONEKitColorTest.m; sourceTree = "<group>"; };
+		F4DBCE0E1D168ACB00EDA820 /* ONEKitExamplePlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ONEKitExamplePlayground.playground; sourceTree = "<group>"; };
+		F4DBCE0F1D1699C600EDA820 /* UIColor+HSB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HSB.h"; sourceTree = "<group>"; };
+		F4DBCE101D1699C600EDA820 /* UIColor+HSB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HSB.m"; sourceTree = "<group>"; };
+		F4DBCE181D16A20F00EDA820 /* ONEColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ONEColor.h; sourceTree = "<group>"; };
+		F4DBCE191D16A20F00EDA820 /* ONEColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ONEColor.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +130,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4DBCDF51D1674A400EDA820 /* ONEKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,15 +148,43 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F4DBCDDC1D1674A400EDA820 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4DBCDE61D1674A400EDA820 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4DBCDEA1D1674A400EDA820 /* ONEKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F40F991C1D1AB69400F45744 /* ONEButton */ = {
+			isa = PBXGroup;
+			children = (
+				F40F99211D1AC0E900F45744 /* ONEButton.h */,
+				F40F99221D1AC0E900F45744 /* ONEButton.m */,
+				F40F991D1D1AB96E00F45744 /* UIButton+Delaytrigger.h */,
+				F40F991E1D1AB96E00F45744 /* UIButton+Delaytrigger.m */,
+			);
+			path = ONEButton;
+			sourceTree = "<group>";
+		};
 		F4DBCD9C1D16747400EDA820 = {
 			isa = PBXGroup;
 			children = (
 				F4DBCDA71D16747400EDA820 /* ONEKitExample */,
 				F4DBCDC11D16747400EDA820 /* ONEKitExampleTests */,
 				F4DBCDCC1D16747500EDA820 /* ONEKitExampleUITests */,
+				F4DBCDE11D1674A400EDA820 /* ONEKit */,
+				F4DBCDEF1D1674A400EDA820 /* ONEKitTests */,
 				F4DBCDA61D16747400EDA820 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,6 +195,8 @@
 				F4DBCDA51D16747400EDA820 /* ONEKitExample.app */,
 				F4DBCDBE1D16747400EDA820 /* ONEKitExampleTests.xctest */,
 				F4DBCDC91D16747500EDA820 /* ONEKitExampleUITests.xctest */,
+				F4DBCDE01D1674A400EDA820 /* ONEKit.framework */,
+				F4DBCDE91D1674A400EDA820 /* ONEKitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -110,6 +213,7 @@
 				F4DBCDB61D16747400EDA820 /* LaunchScreen.storyboard */,
 				F4DBCDB91D16747400EDA820 /* Info.plist */,
 				F4DBCDA81D16747400EDA820 /* Supporting Files */,
+				F4DBCE0E1D168ACB00EDA820 /* ONEKitExamplePlayground.playground */,
 			);
 			path = ONEKitExample;
 			sourceTree = "<group>";
@@ -140,7 +244,65 @@
 			path = ONEKitExampleUITests;
 			sourceTree = "<group>";
 		};
+		F4DBCDE11D1674A400EDA820 /* ONEKit */ = {
+			isa = PBXGroup;
+			children = (
+				F40F991C1D1AB69400F45744 /* ONEButton */,
+				F4DBCDE21D1674A400EDA820 /* ONEKit.h */,
+				F4DBCE211D16A59F00EDA820 /* ONEColor */,
+				F4DBCDE41D1674A400EDA820 /* Info.plist */,
+			);
+			path = ONEKit;
+			sourceTree = "<group>";
+		};
+		F4DBCDEF1D1674A400EDA820 /* ONEKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				F4DBCDF01D1674A400EDA820 /* ONEKitTests.m */,
+				F4DBCE221D16A5AA00EDA820 /* ONEColorTests */,
+				F4DBCDF21D1674A400EDA820 /* Info.plist */,
+			);
+			path = ONEKitTests;
+			sourceTree = "<group>";
+		};
+		F4DBCE211D16A59F00EDA820 /* ONEColor */ = {
+			isa = PBXGroup;
+			children = (
+				F4DBCE181D16A20F00EDA820 /* ONEColor.h */,
+				F4DBCE191D16A20F00EDA820 /* ONEColor.m */,
+				F4DBCE071D16762B00EDA820 /* UIColor+RGB.h */,
+				F4DBCE081D16762B00EDA820 /* UIColor+RGB.m */,
+				F4DBCE0F1D1699C600EDA820 /* UIColor+HSB.h */,
+				F4DBCE101D1699C600EDA820 /* UIColor+HSB.m */,
+			);
+			path = ONEColor;
+			sourceTree = "<group>";
+		};
+		F4DBCE221D16A5AA00EDA820 /* ONEColorTests */ = {
+			isa = PBXGroup;
+			children = (
+				F4DBCE0C1D16784F00EDA820 /* ONEKitColorTest.m */,
+			);
+			name = ONEColorTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F4DBCDDD1D1674A400EDA820 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4DBCDE31D1674A400EDA820 /* ONEKit.h in Headers */,
+				F4DBCE251D16A65A00EDA820 /* ONEColor.h in Headers */,
+				F4DBCE261D16A65A00EDA820 /* UIColor+RGB.h in Headers */,
+				F40F991F1D1AB96E00F45744 /* UIButton+Delaytrigger.h in Headers */,
+				F40F99231D1AC0E900F45744 /* ONEButton.h in Headers */,
+				F4DBCE271D16A65A00EDA820 /* UIColor+HSB.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		F4DBCDA41D16747400EDA820 /* ONEKitExample */ = {
@@ -150,10 +312,12 @@
 				F4DBCDA11D16747400EDA820 /* Sources */,
 				F4DBCDA21D16747400EDA820 /* Frameworks */,
 				F4DBCDA31D16747400EDA820 /* Resources */,
+				F4DBCDFA1D1674A400EDA820 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				F4DBCDF41D1674A400EDA820 /* PBXTargetDependency */,
 			);
 			name = ONEKitExample;
 			productName = ONEKitExample;
@@ -196,6 +360,43 @@
 			productReference = F4DBCDC91D16747500EDA820 /* ONEKitExampleUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		F4DBCDDF1D1674A400EDA820 /* ONEKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4DBCDF71D1674A400EDA820 /* Build configuration list for PBXNativeTarget "ONEKit" */;
+			buildPhases = (
+				F4DBCDDB1D1674A400EDA820 /* Sources */,
+				F4DBCDDC1D1674A400EDA820 /* Frameworks */,
+				F4DBCDDD1D1674A400EDA820 /* Headers */,
+				F4DBCDDE1D1674A400EDA820 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ONEKit;
+			productName = ONEKit;
+			productReference = F4DBCDE01D1674A400EDA820 /* ONEKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F4DBCDE81D1674A400EDA820 /* ONEKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4DBCDFB1D1674A400EDA820 /* Build configuration list for PBXNativeTarget "ONEKitTests" */;
+			buildPhases = (
+				F4DBCDE51D1674A400EDA820 /* Sources */,
+				F4DBCDE61D1674A400EDA820 /* Frameworks */,
+				F4DBCDE71D1674A400EDA820 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4DBCDEC1D1674A400EDA820 /* PBXTargetDependency */,
+				F4DBCDEE1D1674A400EDA820 /* PBXTargetDependency */,
+			);
+			name = ONEKitTests;
+			productName = ONEKitTests;
+			productReference = F4DBCDE91D1674A400EDA820 /* ONEKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -213,6 +414,13 @@
 						TestTargetID = F4DBCDA41D16747400EDA820;
 					};
 					F4DBCDC81D16747500EDA820 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F4DBCDA41D16747400EDA820;
+					};
+					F4DBCDDF1D1674A400EDA820 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					F4DBCDE81D1674A400EDA820 = {
 						CreatedOnToolsVersion = 7.3.1;
 						TestTargetID = F4DBCDA41D16747400EDA820;
 					};
@@ -234,6 +442,8 @@
 				F4DBCDA41D16747400EDA820 /* ONEKitExample */,
 				F4DBCDBD1D16747400EDA820 /* ONEKitExampleTests */,
 				F4DBCDC81D16747500EDA820 /* ONEKitExampleUITests */,
+				F4DBCDDF1D1674A400EDA820 /* ONEKit */,
+				F4DBCDE81D1674A400EDA820 /* ONEKitTests */,
 			);
 		};
 /* End PBXProject section */
@@ -257,6 +467,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		F4DBCDC71D16747500EDA820 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4DBCDDE1D1674A400EDA820 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4DBCDE71D1674A400EDA820 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -292,6 +516,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F4DBCDDB1D1674A400EDA820 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4DBCE0A1D16762C00EDA820 /* UIColor+RGB.m in Sources */,
+				F4DBCE121D1699C600EDA820 /* UIColor+HSB.m in Sources */,
+				F40F99241D1AC0E900F45744 /* ONEButton.m in Sources */,
+				F40F99201D1AB96E00F45744 /* UIButton+Delaytrigger.m in Sources */,
+				F4DBCE1B1D16A20F00EDA820 /* ONEColor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4DBCDE51D1674A400EDA820 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4DBCE0D1D16784F00EDA820 /* ONEKitColorTest.m in Sources */,
+				F4DBCE231D16A60200EDA820 /* UIColor+HSB.m in Sources */,
+				F4DBCE241D16A61100EDA820 /* ONEColor.m in Sources */,
+				F4DBCE0B1D16762C00EDA820 /* UIColor+RGB.m in Sources */,
+				F4DBCDF11D1674A400EDA820 /* ONEKitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -304,6 +552,21 @@
 			isa = PBXTargetDependency;
 			target = F4DBCDA41D16747400EDA820 /* ONEKitExample */;
 			targetProxy = F4DBCDCA1D16747500EDA820 /* PBXContainerItemProxy */;
+		};
+		F4DBCDEC1D1674A400EDA820 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4DBCDDF1D1674A400EDA820 /* ONEKit */;
+			targetProxy = F4DBCDEB1D1674A400EDA820 /* PBXContainerItemProxy */;
+		};
+		F4DBCDEE1D1674A400EDA820 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4DBCDA41D16747400EDA820 /* ONEKitExample */;
+			targetProxy = F4DBCDED1D1674A400EDA820 /* PBXContainerItemProxy */;
+		};
+		F4DBCDF41D1674A400EDA820 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4DBCDDF1D1674A400EDA820 /* ONEKit */;
+			targetProxy = F4DBCDF31D1674A400EDA820 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -479,6 +742,66 @@
 			};
 			name = Release;
 		};
+		F4DBCDF81D1674A400EDA820 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ONEKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.elliot.ONEKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F4DBCDF91D1674A400EDA820 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ONEKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.elliot.ONEKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F4DBCDFC1D1674A400EDA820 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ONEKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.elliot.ONEKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ONEKitExample.app/ONEKitExample";
+			};
+			name = Debug;
+		};
+		F4DBCDFD1D1674A400EDA820 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ONEKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.elliot.ONEKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ONEKitExample.app/ONEKitExample";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -498,6 +821,7 @@
 				F4DBCDD41D16747500EDA820 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F4DBCDD51D16747500EDA820 /* Build configuration list for PBXNativeTarget "ONEKitExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +830,7 @@
 				F4DBCDD71D16747500EDA820 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F4DBCDD81D16747500EDA820 /* Build configuration list for PBXNativeTarget "ONEKitExampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +839,25 @@
 				F4DBCDDA1D16747500EDA820 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4DBCDF71D1674A400EDA820 /* Build configuration list for PBXNativeTarget "ONEKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4DBCDF81D1674A400EDA820 /* Debug */,
+				F4DBCDF91D1674A400EDA820 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4DBCDFB1D1674A400EDA820 /* Build configuration list for PBXNativeTarget "ONEKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4DBCDFC1D1674A400EDA820 /* Debug */,
+				F4DBCDFD1D1674A400EDA820 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,6 +1,6 @@
 //
-//  ONEKitExampleTests.m
-//  ONEKitExampleTests
+//  ONEKitTests.m
+//  ONEKitTests
 //
 //  Created by Simon on 16/6/19.
 //  Copyright © 2016年 Elliot. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface ONEKitExampleTests : XCTestCase
+@interface ONEKitTests : XCTestCase
 
 @end
 
-@implementation ONEKitExampleTests
+@implementation ONEKitTests
 
 - (void)setUp {
     [super setUp];
@@ -23,5 +23,6 @@
     // Put teardown code here. This method is called after the invocation of each test method in the class.
     [super tearDown];
 }
+
 
 @end
