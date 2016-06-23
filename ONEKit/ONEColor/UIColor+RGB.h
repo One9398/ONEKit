@@ -16,5 +16,6 @@
 
 + (UIColor *)one_colorWithRed:(NSUInteger)red green:(NSUInteger)green blue:(NSUInteger)blue;
 
++ (UIColor *)one_colorWithRed:(NSUInteger)red green:(NSUInteger)green blue:(NSUInteger)blue alpha:(CGFloat)alpha;
 
 @end
