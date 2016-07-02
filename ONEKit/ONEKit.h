@@ -17,6 +17,7 @@ FOUNDATION_EXPORT const unsigned char ONEKitVersionString[];
 // In this header, you should import all the public headers of your framework using statements like #import <ONEKit/PublicHeader.h>
 #import "ONEColor.h"
 #import "ONEButton.h"
+#import "ONEView.h"
 
 
 

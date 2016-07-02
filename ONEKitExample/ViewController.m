@@ -21,7 +21,6 @@
 
 	self.view.backgroundColor = [UIColor one_colorWithHue:120 saturation:100 brightness:100];
 	[self configureONEButton];
-	
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
@@ -37,14 +36,12 @@
 #pragma mark - UITest
 - (void)configureONEButton {
 	UIButton *button = [UIButton buttonWithType:UIButtonTypeContactAdd];
+	button.center = self.view.center;
+	button.one_y = 44;
 	button.needDelayClick = YES;
 	button.clickDurationTime = 10.0;
-	button.selected;
 	[button addTarget:self action:@selector(addSomething) forControlEvents:UIControlEventTouchDown];
-	
 	[self.view addSubview:button];
-	button.center = self.view.center;
-	
 }
 
 - (void)addSomething {
