@@ -17,6 +17,10 @@
 		F40F99731D1F75C200F45744 /* ONEView.h in Headers */ = {isa = PBXBuildFile; fileRef = F40F99711D1F75C200F45744 /* ONEView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F40F99741D1F75C200F45744 /* ONEView.m in Sources */ = {isa = PBXBuildFile; fileRef = F40F99721D1F75C200F45744 /* ONEView.m */; };
 		F40F99751D1F75C200F45744 /* ONEView.m in Sources */ = {isa = PBXBuildFile; fileRef = F40F99721D1F75C200F45744 /* ONEView.m */; };
+		F4B2FB021D27E5D300EC0C34 /* NSData+ONE.h in Headers */ = {isa = PBXBuildFile; fileRef = F4B2FB001D27E5D300EC0C34 /* NSData+ONE.h */; };
+		F4B2FB031D27E5D300EC0C34 /* NSData+ONE.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B2FB011D27E5D300EC0C34 /* NSData+ONE.m */; };
+		F4B2FB061D27ECBA00EC0C34 /* NSString+ONE.h in Headers */ = {isa = PBXBuildFile; fileRef = F4B2FB041D27ECBA00EC0C34 /* NSString+ONE.h */; };
+		F4B2FB071D27ECBA00EC0C34 /* NSString+ONE.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B2FB051D27ECBA00EC0C34 /* NSString+ONE.m */; };
 		F4DBCDAA1D16747400EDA820 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4DBCDA91D16747400EDA820 /* main.m */; };
 		F4DBCDAD1D16747400EDA820 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4DBCDAC1D16747400EDA820 /* AppDelegate.m */; };
 		F4DBCDB01D16747400EDA820 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4DBCDAF1D16747400EDA820 /* ViewController.m */; };
@@ -104,6 +108,10 @@
 		F40F996E1D1F758000F45744 /* UIView+ONEFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ONEFrame.m"; sourceTree = "<group>"; };
 		F40F99711D1F75C200F45744 /* ONEView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ONEView.h; sourceTree = "<group>"; };
 		F40F99721D1F75C200F45744 /* ONEView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ONEView.m; sourceTree = "<group>"; };
+		F4B2FB001D27E5D300EC0C34 /* NSData+ONE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+ONE.h"; sourceTree = "<group>"; };
+		F4B2FB011D27E5D300EC0C34 /* NSData+ONE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+ONE.m"; sourceTree = "<group>"; };
+		F4B2FB041D27ECBA00EC0C34 /* NSString+ONE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ONE.h"; sourceTree = "<group>"; };
+		F4B2FB051D27ECBA00EC0C34 /* NSString+ONE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ONE.m"; sourceTree = "<group>"; };
 		F4DBCDA51D16747400EDA820 /* ONEKitExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ONEKitExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4DBCDA91D16747400EDA820 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F4DBCDAB1D16747400EDA820 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -207,6 +215,17 @@
 			name = ONEViewTests;
 			sourceTree = "<group>";
 		};
+		F4B2FAFF1D27E5A600EC0C34 /* ONECategories */ = {
+			isa = PBXGroup;
+			children = (
+				F4B2FB001D27E5D300EC0C34 /* NSData+ONE.h */,
+				F4B2FB011D27E5D300EC0C34 /* NSData+ONE.m */,
+				F4B2FB041D27ECBA00EC0C34 /* NSString+ONE.h */,
+				F4B2FB051D27ECBA00EC0C34 /* NSString+ONE.m */,
+			);
+			path = ONECategories;
+			sourceTree = "<group>";
+		};
 		F4DBCD9C1D16747400EDA820 = {
 			isa = PBXGroup;
 			children = (
@@ -277,6 +296,7 @@
 		F4DBCDE11D1674A400EDA820 /* ONEKit */ = {
 			isa = PBXGroup;
 			children = (
+				F4B2FAFF1D27E5A600EC0C34 /* ONECategories */,
 				F40F99251D1CAD3600F45744 /* ONEView */,
 				F40F991C1D1AB69400F45744 /* ONEButton */,
 				F4DBCDE21D1674A400EDA820 /* ONEKit.h */,
@@ -331,6 +351,8 @@
 				F40F991F1D1AB96E00F45744 /* UIButton+Delaytrigger.h in Headers */,
 				F40F996F1D1F758000F45744 /* UIView+ONEFrame.h in Headers */,
 				F40F99731D1F75C200F45744 /* ONEView.h in Headers */,
+				F4B2FB021D27E5D300EC0C34 /* NSData+ONE.h in Headers */,
+				F4B2FB061D27ECBA00EC0C34 /* NSString+ONE.h in Headers */,
 				F40F99231D1AC0E900F45744 /* ONEButton.h in Headers */,
 				F4DBCE271D16A65A00EDA820 /* UIColor+HSB.h in Headers */,
 			);
@@ -558,9 +580,11 @@
 				F40F99741D1F75C200F45744 /* ONEView.m in Sources */,
 				F4DBCE0A1D16762C00EDA820 /* UIColor+RGB.m in Sources */,
 				F4DBCE121D1699C600EDA820 /* UIColor+HSB.m in Sources */,
+				F4B2FB071D27ECBA00EC0C34 /* NSString+ONE.m in Sources */,
 				F40F99241D1AC0E900F45744 /* ONEButton.m in Sources */,
 				F40F99201D1AB96E00F45744 /* UIButton+Delaytrigger.m in Sources */,
 				F4DBCE1B1D16A20F00EDA820 /* ONEColor.m in Sources */,
+				F4B2FB031D27E5D300EC0C34 /* NSData+ONE.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
